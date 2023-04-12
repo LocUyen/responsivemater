@@ -1,0 +1,183 @@
+.container{
+    max-width: 960px;
+    margin: 0px auto;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.text-center{
+    align-items: center;
+}
+ul{
+    margin-bottom: 0px!important;
+}
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #111;
+}
+#header{
+    height: 60px;
+    position: relative;
+
+}
+nav{
+    position: fixed;
+    width: 100%;
+    background: #2c2c32;
+
+}
+#navbar-brand{
+    padding: 10px 5px;
+}
+#navbar-brand img{
+    height: 40px;
+    width: auto;
+
+}
+#logo {
+    color: #ffffff;
+    font-size: 20px;
+}
+ul#main-menu{
+    display: none;
+}
+ul#main-menu li{
+    /* padding: 13px 12px; */
+    list-style: none;
+    position: relative;
+}
+ul#main-menu>li:hover>a{
+    color: #ffffff;
+}
+ul#main-menu>li:hover ul.sub-menu {
+    display: block;
+}
+ul#main-menu li a{
+    text-decoration: none;
+    color: #cccccc;
+    display: block;
+    padding: 18px 15px;
+    transition: all 0.5s ease-in-out;
+
+}
+ul#main-menu li a:hover{
+    color: #ffffff;
+}
+ul#main-menu ul.sub-menu{
+    position: absolute;
+    top: 57px;
+    left: 0;
+    width: 220px;
+    background: #333;
+    padding: 0px;
+    display: none;
+}
+ul#main-menu ul.sub-menu a{
+    padding: 8px 20px;
+}
+ul#main-menu ul.sub-menu li:hover a{
+    color: #ffffff;
+}
+#download{
+    padding: 18px 20px;
+    background: #0066b8;
+    color: #ffffff;
+    text-decoration: none;
+    display: none;
+    font-weight: bold;
+}
+#download:hover{
+    background: #005ba4;
+}
+#navbar-toggle{
+    color: #ffffff;
+    font-weight: bold;
+    padding-right: 20px;
+}
+#responsive-menu{
+    list-style: none;
+    position: absolute;
+    top: 60px;
+    background: #333;
+    width: 100%;
+    padding-bottom: 15px;
+    display: none;
+    padding-left: 0;
+}
+#responsive-menu>li{
+    position: relative;
+    border: 1px solid #3e3838;
+    
+}
+#responsive-menu .responsive-menu-toggle{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 15px;
+    transition: transform 0.3s ;
+}
+#responsive-menu .responsive-menu-toggle.open{
+    transform: rotate(180deg);
+}
+#responsive-menu a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    color: #cccccc;
+}
+#responsive-menu>li:hover>a, #responsive-menu ul.sub-menu a:hover{
+    color: #ffffff;
+}
+#responsive-menu ul.sub-menu{
+    list-style: none;
+    padding: 0 10px;
+}
+#responsive-menu ul.sub-menu{
+    list-style: none;
+    padding: 0 10px;
+    background: #424040;
+    display: none;
+}
+#wp-content{
+    padding: 40px;
+}
+/* #download::before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 400; 
+    content: "\f33d";
+} */
+ /* Small devices (landscape phones, 576px and up)  */
+ @media (min-width: 576px){
+    
+}
+ /* // Medium devices (tablets, 768px and up)  */
+@media (min-width: 768px) {
+
+}
+/*  Large devices (desktops, 992px and up) /٠ */
+@media (min-width: 992px) {
+    ul#main-menu{
+        display: flex;
+    }
+    #download{
+        display: block;
+    }
+    #navbar-toggle{
+        display: none;
+    }
+    #responsive-menu{
+        display: none;
+    }
+}
+/* Extra large devices (large desktops, 1200px and up)  */
+@media (min-width: 1200px){
+
+}

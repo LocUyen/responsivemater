@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+
+    <title>Nav bar Responsive</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <nav>
+                <div class="container d-flex justify-content-between text-center">
+                    <div id="navbar-brand">
+                        <img src="./images/logo.png" alt="brand">
+                        <span id="logo">Visual Studio Code</span>
+                    </div>
+                    <ul id="main-menu" class="d-flex ">
+                        <li><a href="">Docs</a>
+                            <ul class="sub-menu">
+                                <li><a href="">Menu item 1</a></li>
+                                <li><a href="">Menu item 2</a></li>
+                                <li><a href="">Menu item 3</a></li>
+                                <li><a href="">Menu item 4</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Code</a></li>
+                        <li><a href="">Update</a></li>
+                        <li><a href="">API</a>
+                            <ul class="sub-menu">
+                                <li><a href="">Menu item 1</a></li>
+                                <li><a href="">Menu item 2</a></li>
+                                <li><a href="">Menu item 3</a></li>
+                                <li><a href="">Menu item 4</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Extension</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Learn</a></li>
+                    </ul>
+                    <a id="download" href=""><i class="fa-sharp fa-solid fa-arrow-down"></i><span> Download</span></a>
+                    <div id="navbar-toggle">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <ul id="responsive-menu" class="container">
+                        <li><a href="">Docs</a>
+                            <i class="responsive-menu-toggle fa-sharp fa-solid fa-angle-down"></i>
+                            <ul class="sub-menu">
+                                <li><a href="">Menu item 1</a></li>
+                                <li><a href="">Menu item 2</a></li>
+                                <li><a href="">Menu item 3</a></li>
+                                <li><a href="">Menu item 4</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Code</a></li>
+                        <li><a href="">Update</a>
+                            <i class="responsive-menu-toggle fa-sharp fa-solid fa-angle-down"></i>
+                            <ul class="sub-menu">
+                                <li><a href="">Menu item 1</a></li>
+                                <li><a href="">Menu item 2</a></li>
+                                <li><a href="">Menu item 3</a></li>
+                                <li><a href="">Menu item 4</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">API</a></li>
+                        <li><a href="">Extension</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Learn</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div id="wp-content" class="container">
+            <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores nisi culpa magni sequi optio nemo.
+            </h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit architecto corporis facere id
+                praesentium, blanditiis officiis quidem beatae magni laborum ea omnis adipisci officia eaque non
+                voluptas libero numquam repellendus, voluptatum illum obcaecati odit veniam facilis veritatis.
+                Voluptatem illo fugit iste voluptas veniam quaerat hic dolore, quo adipisci aut earum doloribus vero ea,
+                officia neque inventore suscipit, quibusdam repellat cumque. Totam sit sint cupiditate possimus itaque
+                modi omnis ipsam odit unde et nesciunt, hic, perferendis, explicabo quas impedit placeat natus
+                voluptatibus aliquid ex excepturi porro. Consequatur impedit voluptatem sunt eum sint placeat
+                praesentium nisi distinctio omnis necessitatibus qui minus aperiam vel eligendi, explicabo, asperiores
+                autem voluptas atque ab voluptates error sit tenetur. Fugiat facere unde neque a. Id quae illo mollitia,
+                ipsam dignissimos repudiandae esse, voluptatum vero nisi neque vel consequatur. Sapiente dolore modi
+                minima debitis deleniti, commodi error nobis fugit ullam qui ad sit nesciunt voluptatum illo tempora
+                consectetur!</p>
+            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus nesciunt alias repudiandae tempora minus
+                saepe?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro architecto ullam molestias recusandae
+                asperiores alias ea sed beatae nam esse quod non perspiciatis voluptas dolorum temporibus eligendi modi
+                optio nisi neque, ipsa ab in voluptatem. Deserunt dolorem mollitia dicta molestias corporis, excepturi
+                veniam accusantium harum ut quis atque, sed ducimus autem quasi beatae consequatur repudiandae expedita!
+                Saepe vitae temporibus hic cupiditate, obcaecati odio sequi at quod nemo error atque labore quos dolorum
+                libero accusantium tempore. Optio rem, dolor molestiae quos eaque corrupti expedita repellat temporibus!
+                Facere autem esse beatae maiores, similique distinctio omnis voluptates expedita unde corrupti facilis
+                impedit officiis aliquid atque vitae obcaecati nisi itaque sed sint quibusdam libero doloremque illum
+                recusandae doloribus? Deleniti distinctio vitae explicabo totam molestiae.</p>
+            <p>Itaque corporis accusamus, ullam perferendis necessitatibus ab possimus soluta dolores nostrum
+                recusandae? Aliquid natus illum repellendus quibusdam nulla, pariatur laboriosam enim, unde ipsa ipsum
+                sunt eum minus, earum omnis? Ipsam quisquam, autem adipisci esse reprehenderit voluptate aliquam
+                aspernatur veniam perferendis? Sint, ut. Esse deserunt, maxime molestiae suscipit consectetur
+                voluptatibus quos, maiores deleniti illo sunt molestias modi cumque sapiente porro. Aliquid animi nisi
+                repellendus neque sint, deserunt nemo odio maiores esse autem numquam laudantium magnam quaerat in
+                veniam, voluptatibus quae atque unde qui. Impedit iusto dolorem ut quo, fugiat ipsam at error laudantium
+                molestias sequi, doloremque quasi provident, sapiente molestiae tempore accusamus amet deleniti.
+                Assumenda ex quos ipsam ab, harum a omnis corrupti odio animi eveniet exercitationem sint. Corporis,
+                magnam ea.</p>
+            <p>Dolorum earum, a nobis molestias fugit pariatur velit dolore ab veritatis eius voluptatum ut totam est
+                maxime quidem laudantium suscipit quod, cupiditate atque cum. Perspiciatis quae expedita debitis, sed
+                ipsum voluptas ad facere eos labore, hic corporis necessitatibus nisi omnis esse eum eius, praesentium
+                minima dignissimos itaque voluptatum eligendi. Quia quasi reiciendis iure, maiores voluptates sequi a
+                molestias tempora. Animi architecto velit ut molestias suscipit eaque. Repellendus saepe dolores quod
+                ipsa maxime suscipit facere possimus rerum amet natus veniam expedita doloribus, id incidunt est
+                distinctio rem? Voluptates libero explicabo fuga. Repudiandae, autem quo, a eum explicabo quod quae unde
+                id doloremque, nulla provident similique culpa at expedita maiores numquam! Laudantium delectus pariatur
+                qui nostrum eligendi reiciendis quod aliquid inventore excepturi!</p>
+            <p>Commodi neque perferendis rem fuga explicabo unde reiciendis reprehenderit dicta, tempora, necessitatibus
+                soluta ullam minus laboriosam officia magni dolore dolorem pariatur quia? Rem fugiat amet iste, id ab
+                accusantium adipisci in aperiam provident consequatur officia aliquid recusandae at dignissimos error
+                quaerat ratione libero sequi illo laborum. Veritatis in sint, soluta eos rerum suscipit non dolorum!
+                Possimus ab culpa alias consequuntur at voluptas molestiae laboriosam minus nulla, velit totam
+                voluptatibus aliquam earum veritatis obcaecati. Ex eius similique, nesciunt dicta et natus labore
+                facere, cum alias odit at dolor assumenda eaque. Vitae dolor, et, unde fuga qui assumenda, soluta id
+                minus recusandae tempore laborum voluptatum veritatis magni architecto quia quae perspiciatis nostrum
+                labore dignissimos libero voluptatem magnam eos repellendus cum. Cupiditate, consequuntur!</p>
+        </div>
+        <div id="footer"></div>
+    </div>
+</body>
+
+
+</html>
